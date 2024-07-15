@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+ul{
+    list-style: none;
+}
+.class__display{
+    display: flex;
+}
+.header{ 
+    background: rgb(44, 44, 44);
+}
+.container{
+    max-width: 817px;
+    margin: 0 auto;
+}
+.container_header{
+    padding: 31px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav__list_item{
+    margin-right: 31px;
+}
+.hero__block{
+    background: rgb(44, 44, 44);
+}
+.container_hero{
+    padding: 60px 0;
+    align-items: center;
+}
+.hero__block_content{
+    margin-left: 80px;
+}
+.content-btn{
+    border-radius: 6px;
+    background: rgb(204, 150, 10);
+    width: 251px;
+    height: 49px;
+    left: 768px;
+    right: -768px;
+    top: 381px;
+    bottom: -381px;
+}
+.about{
+    background-color: rgb(62, 62, 62);
+}
+.container_about{
+    padding: 60px 0 99px;
+}
+.about__autor{
+    position: absolute;
+    width: 287px;
+    height: 49px;
+    left: 497px;
+    right: 77px;
+    top: 674px;
+    bottom: -212px;
+}
+.about__content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 133px;
+}
+.about__text{
+    margin-right: 40px;
+    width: 448px;
+    height: 174px;
+}
+.vidieo{
+    background-color: rgb(44, 44, 44);
+}
+.container__vidieo{
+    padding: 60px 0 100px;
+}
+.vidieo__title{
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.video__video{
+    width: 763.19px;
+    height: 433px;
+    border: 50px solid rgb(65, 65, 65);
+    border-radius: 29px;
+}
+.galery{
+    background: rgb(62, 62, 62);
+}
+.galery__title{
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 58px;
+    text-align: center;
+    margin-bottom: 80px;
+}
+.galery__list{
+    flex-wrap: wrap;
+}
+.galery__item{
+    width: 50%;
+    height: 300px;
+}
+.gallery__img{
+    width: 100%;
+    height: 100%;
+}
+.footer{
+    background-color: rgb(44, 44, 44);
+}
+.container__footer{
+    justify-content: space-between;
+    align-items: center;
+    padding: 58px 0 54px;
+}
+.footer__title{
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-bottom: 13px;
+}
+.footer__text{
+    color: rgb(228, 228, 228);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: left;
+}
+.footer__item{
+    margin-right: 18px;
+}
